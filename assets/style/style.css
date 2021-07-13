@@ -1,6 +1,9 @@
 body{
     background: var(--color-light-2);
 }
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
 .p--40{
     padding-left: 2.5rem;
 }
@@ -35,6 +38,9 @@ body{
 .footer--title{
     font-weight: bold;
 }
+.navbar-brand{
+    margin-right: 0;
+}
 /* ============================    Navbar    =================================== */
 .dropdown-showmore::after{
 content: none
@@ -68,9 +74,12 @@ a.nav-link{
     color: var(--main-color)
 }
 .icon-search{
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-right: 0.675rem;
     color: var(--color-light-1);
+}
+i.bx.bx-search.icon-search{
+    align-self: center;
 }
 .icon-menu{
     font-size: 2rem;
@@ -79,6 +88,7 @@ a.nav-link{
 .customer__button-login{
     background: var(--main-color);
     color: var(--color-light-1);
+    font-size: 0.8rem;
 }
 
 /* ============================    Header    =================================== */
@@ -211,4 +221,86 @@ ul.footer--list.list-social{
 }
 .block-footer{
     width: 80%;
+}
+.margin-right-footer{
+    margin-right: -5rem;
+}
+.block-footer-4{
+    line-height: 1.1;
+    text-align: right;
+}
+.footer__registered{
+    float: right;
+    width: 10rem;
+}
+
+/* Reponsive */
+@media(max-width: 990px){
+    .img-content-2{
+        transform: scale(0.7);
+        top: -18rem;
+        right: 4rem;
+        opacity: 0.3;
+    }
+    .img-content-3{
+        transform: scale(0.8);
+        top: -15rem;
+        right: 8rem;
+        opacity: 0.3;
+    }
+}
+@media (max-width: 420px){
+    .footer__customer{
+        transform: scale(0.9);
+    }
+    .customer__content{
+            padding: 1rem 1rem
+    }
+    .img-content-2{
+        transform: scale(0.7);
+        top: -21rem;
+        opacity: 0.2;
+    }
+    .img-content-3{
+        transform: scale(0.9);
+        top: -19rem;
+        right: 4rem;
+        opacity: 0.2;
+    }
+    .footer__customer .col{
+        font-size: 0.625rem;
+        padding-left: 0.5rem;
+        padding-right: 0;
+    }
+    .footer__customer .apps{
+        transform: scale(0.8);
+       
+    }
+    .block-footer-2{
+        position: absolute;
+        right: -4rem;
+    bottom: -6rem;
+        width: 20rem;
+    
+    }
+    .block-footer-3{
+        transform: scale(0.7);
+    }
+    .block-footer-4{
+        margin-left: -3rem;
+        line-height: 0.7rem;
+    }
+    .col.margin-right-footer{
+        margin-right: -11rem;
+    }
+    .download--list{
+        width: 115%;
+        display: flex;
+    }
+}
+@media (max-width:400px){
+    .block-footer-2{
+        right: -5rem;
+        transform: scale(0.9);
+    }
 }
