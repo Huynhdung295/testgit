@@ -1,20 +1,55 @@
-.light-grass--1{
-backdrop-filter: blur(0px);
--webkit-backdrop-filter: blur(0px);
-border: 1px solid rgba(255, 255, 255, 0.18);
-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
--webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
-border-radius: 12px;
--webkit-border-radius: 12px;
+.theme-light-glass-1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.theme-custom-1 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgb(142 142 142 / 19%) 3px 7px 8px 6px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
 }
 
-.dark-grass--1{
-    background-color: rgba(89, 89, 89, 0.6);
-backdrop-filter: blur(30px);
--webkit-backdrop-filter: blur(30px);
-border: 1px solid rgba(255, 255, 255, 0.18);
-box-shadow: rgba(14, 14, 14, 0.19) 0px 6px 15px 0px;
--webkit-box-shadow: rgba(14, 14, 14, 0.19) 0px 6px 15px 0px;
-border-radius: 0px;
--webkit-border-radius: 0px;
+.theme-custom-2{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgb(142 142 142 / 19%) -11px -3px 13px 6px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width:575px){
+    .theme-custom-1,.theme-custom-2{
+        border-radius: 10px;
+    }
+}
+
+.theme-light-glass-w100-b100-bb100-t100 {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  color: rgb(0, 0, 0);
+}
+.theme-light-glass-w100-b100-bb0-t0 {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  color: rgba(255, 255, 255, 0.15);
 }
