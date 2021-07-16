@@ -226,6 +226,12 @@
 .header-nav .nav > li > a span {
   display: inline-block;
 }
+
+.text-black .nav > li > a:hover {
+  /* color: #e6d11aec */
+  color: #000;
+}
+
 .header-nav .nav > li > a i {
   font-size: 9px;
   margin-left: 3px;
@@ -629,14 +635,14 @@
   background: white;
   backdrop-filter: blur(10px);
 }
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 991px) {
   .is-fixed .header-nav .nav > li > a {
     padding: 35px 15px;
   }
 
 }
 .main-bar.clearfix.pos-rel{
-  height: 85px;
+  /* height: 85px; */
 }
 
 @media only screen and (max-width: 575px){
@@ -714,6 +720,8 @@
 }
 .text-black .nav > li > a {
   color: #070120;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .text-black .navbar-toggler span {
   background: var(--color-dark-1);
