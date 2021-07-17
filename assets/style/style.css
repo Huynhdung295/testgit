@@ -193,7 +193,7 @@ body {
   width: 100%;
 }
 .img__content-3 {
-  width: 60%;
+
   float: right;
 }
 .list__content-5 {
@@ -202,7 +202,7 @@ body {
 }
 
 .wrapper-customer {
-  background: #fff;
+  
   padding: 10px 100px;
 }
 @media only screen and (max-width: 991px) {
@@ -215,17 +215,20 @@ body {
     width: 50%;
   }
   .img__content-3 {
-    width: 40%;
+  
   }
 }
 
 @media only screen and (min-width: 991px) {
   .image__content {
-    margin-top: -3rem;
+    
   }
   .img__footer {
     width: 30%;
     display: inline;
+  }
+  .img__content-3{
+    margin-top: 50px
   }
 }
 
@@ -261,24 +264,23 @@ body {
     font-size: 0.7rem;
   }
   .customer__content-all h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .customer__content-all h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .customer__content-all .py-5{
     padding-bottom: 0 !important;
     padding-top: 2rem;
   }
   .image__content{
-    position: absolute !important;
-    opacity: 0.2;
+  
   }
   .img__content-2 {
     width: 45%;
   }
   .img__content-3 {
-    width: 35%;
+    
   }
   .wrapper-customer {
     padding: 5px 0;

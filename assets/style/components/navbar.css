@@ -1,3 +1,6 @@
+.is-fixed .main-bar{
+  background: #fbfbfb52 !important;
+}
 .pos-rel {
   position: relative;
 }
@@ -653,6 +656,7 @@
 @media only screen and (max-width: 991px) {
   .mo-left .header-nav {
     /* overflow-y: scroll; */
+    overflow-x: hidden;
     overflow-y: hidden;
     position: fixed;
     width: 60px;
